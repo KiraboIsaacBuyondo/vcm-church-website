@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: black;
+  font-family: 'Lato', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.nav-link {
+  @apply text-white hover:text-blue-200 transition duration-300 ease-in-out font-medium py-2;
+}
+
+
+
+.input-field {
+  @apply shadow-sm appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-blue-300;
+}
+
+.btn-primary {
+  @apply bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full shadow-lg transition duration-300 ease-in-out disabled:opacity-50;
+}
+
+.btn-secondary {
+  @apply bg-gray-400 hover:bg-gray-500 text-white font-bold py-2 px-4 rounded-full shadow-lg transition duration-300 ease-in-out;
+}
+
+.btn-edit {
+  @apply bg-yellow-500 hover:bg-yellow-600 text-white py-1 px-3 rounded-full text-xs;
+}
+
+.btn-delete {
+  @apply bg-red-500 hover:bg-red-600 text-white py-1 px-3 rounded-full text-xs;
+}
+
+.th-cell {
+  @apply py-3 px-6 text-left text-blue-800 uppercase text-sm font-bold;
+}
+
+.td-cell {
+  @apply py-3 px-6 text-left text-gray-700 font-light;
+}
