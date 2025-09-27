@@ -63,7 +63,7 @@ const ImNewPage = () => {
     
     const faqs = [
         { q: "What are your service times?", a: "We are delighted to have you join us! Our Sunday services are at 8:00 AM and a second service at 10:30 AM here in Masajja. We recommend arriving 15 minutes early to find parking and a good seat." },
-        { q: "What is the worship music like?", a: "Our worship experience is a vibrant and contemporary blend of modern worship songs and beloved hymns, led by a full band. Our focus is on heartfelt praise and creating an atmosphere where you can connect with God." },
+        { q: "What is the worship music like?", a: "Our worship experience is a vibrant and contemporary blend of modern worship songs and beloved hymns, led by a our worship team. Our focus is on heartfelt praise and creating an atmosphere where you can connect with God." },
         { q: "What should I wear?", a: "There is no dress code! You'll see people in everything from their Sunday best (like a Gomesi or Kanzu) to jeans and a t-shirt. Please come in whatever makes you feel comfortable." },
         { q: "What about my children?", a: "We have a wonderful and secure children's program called 'VCM Kids' for all ages, from toddlers to pre-teens. Our trained volunteers will ensure your children have a fun, safe, and faith-filled time while you enjoy the main service." },
         { q: "How do I get to the church?", a: "We are located in Masajja, just off the Entebbe-Express highway. You can find a detailed map and get directions on our Contact page. Boda-boda riders in the area know us well!" },

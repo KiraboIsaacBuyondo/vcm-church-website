@@ -25,6 +25,12 @@ const MinistriesPage = () => {
         { icon: "fas fa-users", title: "Ushering Ministry", description: "A vital team that ensures our services run smoothly by assisting with seating, collecting offerings, and maintaining order." },
         { icon: "fas fa-video", title: "Media & Production", description: "The technical team behind our online services and in-person experience, managing sound, lighting, cameras, and projections." },
         { icon: "fas fa-bullhorn", title: "Outreach & Evangelism", description: "This team takes the love of Jesus beyond our church walls, organizing community service events and sharing the gospel." },
+
+        // ✅ Newly added ministries
+        { icon: "fas fa-female", title: "Ladies Ministry", description: "A vibrant fellowship that empowers women through prayer, mentorship, outreach, and spiritual growth tailored for women in the church." },
+        { icon: "fas fa-user-graduate", title: "Youth Ministry", description: "A dynamic ministry that raises young men and women in faith through mentorship, discipleship, worship, and engaging youth programs." },
+        { icon: "fas fa-ring", title: "Marrieds Fellowship", description: "A ministry dedicated to strengthening marriages through counseling, fellowship, mentorship, and family-building activities." },
+        { icon: "fas fa-praying-hands", title: "Intercessors", description: "A committed team devoted to standing in the gap through prayer, fasting, and covering the church, families, and nation spiritually." },
     ];
 
     return (

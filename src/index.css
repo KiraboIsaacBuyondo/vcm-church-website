@@ -41,3 +41,11 @@ body {
 .td-cell {
   @apply py-3 px-6 text-left text-gray-700 font-light;
 }
+
+/* Hide scrollbar for modern look */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  scrollbar-width: none;
+}

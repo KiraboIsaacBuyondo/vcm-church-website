@@ -106,7 +106,7 @@ const ContactPage = () => {
                                 <h3 className="text-2xl font-bold text-blue-800 mb-6">Church Office</h3>
                                 <div className="space-y-4 text-gray-700">
                                     <p><i className="fas fa-map-marker-alt w-6"></i>Masajja, off Entebbe Highway, Kampala, Uganda</p>
-                                    <p><i className="fas fa-phone w-6"></i>+256 7784 290 507</p>
+                                    <p><i className="fas fa-phone w-6"></i>+256 772 648 479</p>
                                     <p><i className="fas fa-envelope w-6"></i>victorychurchmasajja1@gmail.com</p>
                                 </div>
 
@@ -133,9 +133,9 @@ const ContactPage = () => {
 
                                 <h3 className="text-2xl font-bold text-blue-800 mb-6">Specific Inquiries</h3>
                                 <div className="space-y-2 text-sm">
-                                    <p><span className="font-bold">Children's Ministry:</span> <a href="#" className="text-blue-600">victorychurchmasajja1@gmail.com</a></p>
-                                    <p><span className="font-bold">Youth Ministry:</span> <a href="#" className="text-blue-600">victorychurchmasajja1@gmail.com</a></p>
-                                    <p><span className="font-bold">Finance/Giving:</span> <a href="#" className="text-blue-600">victorychurchmasajja1@gmail.com</a></p>
+                                    <p><span className="font-bold">Children's Ministry:</span> <a href="#" className="text-blue-600">victorychurchmasajja@gmail.com</a></p>
+                                    <p><span className="font-bold">Youth Ministry:</span> <a href="#" className="text-blue-600">victorychurchmasajja@gmail.com</a></p>
+                                    <p><span className="font-bold">Finance/Giving:</span> <a href="#" className="text-blue-600">victorychurchmasajja@gmail.com</a></p>
                                 </div>
                             </div>
                         </div>
