@@ -16,11 +16,22 @@ const GivingPage = () => {
                 <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-12">
                     Your generous giving enables us to fulfill our mission of reaching our community for Christ. Every contribution is a seed sown into fertile ground, bringing forth a harvest of transformed lives. We thank you for your faithfulness and support.
                 </p>
-                <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                    
+                    {/* Mobile Money Updated */}
                     <GivingOption title="Mobile Money">
                         <p><span className="font-bold">MTN:</span> 0784 290 507 (Vicent Mbalangu)</p>
                         <p><span className="font-bold">Airtel:</span> 0702 8699 102 (Vicent Mbalangu)</p>
                     </GivingOption>
+
+                    {/* New MoMo Pay Option */}
+                    <GivingOption title="MoMo Pay">
+                        <p><span className="font-bold">Code:</span> 941940</p>
+                        <p><span className="font-bold">Name:</span> Vincent Victor</p>
+                    </GivingOption>
+
+                    {/* Bank Option */}
                     <GivingOption title="Bank Deposit">
                         <p><span className="font-bold">Bank:</span> KCB Bank</p>
                         <p><span className="font-bold">Account Name:</span> Victory Church Masajja</p>

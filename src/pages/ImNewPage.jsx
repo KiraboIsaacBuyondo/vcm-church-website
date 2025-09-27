@@ -139,12 +139,9 @@ const ImNewPage = () => {
                 </div>
             </section>
 
-            {/* CHANGE 2: The "Meet Our Staff" section is now at the bottom. */}
             <section className="bg-gray-50 py-20">
                 <div className="container mx-auto px-6 text-center">
-                    {/* CHANGE 3: The heading now says "Meet Our Staff". */}
-                    <h2 className="text-4xl font-bold text-gray-800 mb-12">Meet Our Staff</h2>
-                    {/* CHANGE 4: The grid layout is now 3 columns on larger screens. */}
+                    <h2 className="text-4xl font-bold text-gray-800 mb-12">Meet Our Team</h2>
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-12 max-w-6xl mx-auto">
                         {staff.map(member => <StaffCard key={member.name} {...member} />)}
                     </div>

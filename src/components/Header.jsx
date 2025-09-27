@@ -38,6 +38,7 @@ const Header = () => {
           <NavLink to="/events" className="nav-link" style={({ isActive }) => isActive ? activeLinkStyle : undefined}>Events</NavLink>
           <NavLink to="/gallery" className="nav-link" style={({ isActive }) => isActive ? activeLinkStyle : undefined}>Gallery</NavLink>
           <NavLink to="/contact" className="nav-link" style={({ isActive }) => isActive ? activeLinkStyle : undefined}>Contact</NavLink>
+          <NavLink to="/giving" className="nav-link" style={({ isActive }) => isActive ? activeLinkStyle : undefined}>Giving</NavLink>
           
           {/* CHANGE: The entire block that shows "Admin Login" or "Logout" is now commented out.
             This makes the admin panel access private.
